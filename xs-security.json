@@ -1,0 +1,31 @@
+{
+  "scopes": [
+    {
+      "name": "$XSAPPNAME.support",
+      "description": "support"
+    },
+    {
+      "name": "$XSAPPNAME.incidentadmin",
+      "description": "incidentadmin"
+    }
+  ],
+  "attributes": [],
+  "role-templates": [
+    {
+      "name": "support",
+      "description": "generated",
+      "scope-references": [
+        "$XSAPPNAME.support"
+      ],
+      "attribute-references": []
+    },
+    {
+      "name": "incidentadmin",
+      "description": "generated",
+      "scope-references": [
+        "$XSAPPNAME.incidentadmin"
+      ],
+      "attribute-references": []
+    }
+  ]
+}
